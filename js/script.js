@@ -222,6 +222,14 @@ function initSplash() {
   const splash = document.getElementById('splash');
   if (!splash) return;
 
+  // Only play the intro once per browser session, not on every visit to the homepage.
+  if (sessionStorage.getItem('nabaaSplashShown')) {
+    splash.style.display = 'none';
+    splash.removeAttribute('aria-hidden');
+    return;
+  }
+  sessionStorage.setItem('nabaaSplashShown', '1');
+
   document.body.style.overflow = 'hidden';
 
   // Duration: progress bar takes ~2.9s total (0.9s delay + 2s fill)
