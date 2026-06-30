@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NABAA AL SAHRA TECHNICAL WORKS LLC — Reliable technical manpower solutions for construction, industrial, and interior fit-out projects across the UAE." />
+  <meta name="keywords" content="technical manpower UAE, carpentry workers Dubai, plaster workers UAE, construction manpower, steel installation workers, skilled labor Dubai" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="NABAA AL SAHRA TECHNICAL WORKS LLC" />
+  <meta property="og:description" content="Reliable Technical Manpower Solutions Across UAE. Skilled carpenters, plaster workers, steel installation teams and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/hero.jpg" />
+
+  <title>NABAA AL SAHRA TECHNICAL WORKS LLC | Technical Manpower UAE</title>
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png" />
+</head>
+<body>
+
+  <!-- =============================
+       INTRO SPLASH SCREEN
+  ============================== -->
+  <div class="splash" id="splash" aria-hidden="true">
+    <div class="splash__bg-lines"></div>
+    <div class="splash__content">
+      <div class="splash__logo-wrap">
+        <img src="assets/logo/logo.png" alt="NABAA AL SAHRA" class="splash__logo-img" id="splashImg"
+             onerror="this.style.display='none';" />
+        <div class="splash__logo-text-wrap">
+          <span class="splash__logo-main">NABAA AL SAHRA</span>
+          <span class="splash__logo-divider"></span>
+          <span class="splash__logo-sub">TECHNICAL WORKS LLC</span>
+        </div>
+      </div>
+      <p class="splash__tagline">Dubai &bull; United Arab Emirates</p>
+      <div class="splash__progress"><span class="splash__progress-fill"></span></div>
+    </div>
+  </div>
+
+  <!-- =============================
+       NAVIGATION
+  ============================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__logo" aria-label="NABAA AL SAHRA home">
+        <img src="assets/logo/logo.png" alt="NABAA AL SAHRA" class="logo-img"
+             onerror="this.style.display='none';" />
+        <div class="logo-text">
+          <span class="logo-text__main">NABAA AL SAHRA</span>
+          <span class="logo-text__sub">TECHNICAL WORKS LLC</span>
+        </div>
+      </a>
+
+      <nav class="navbar__nav" id="navMenu" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home"      class="nav-link" data-section="home">Home</a></li>
+          <li><a href="#about"     class="nav-link" data-section="about">About</a></li>
+          <li><a href="#services"  class="nav-link" data-section="services">Services</a></li>
+          <li><a href="#gallery"   class="nav-link" data-section="gallery">Gallery</a></li>
+          <li><a href="#contact"   class="nav-link nav-link--cta" data-section="contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =============================
+         HERO SECTION
+    ============================== -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <!-- Replace src with your actual hero photo -->
+        <img
+          src="assets/images/hero.jpg"
+          alt="Technical manpower team at construction site"
+          class="hero__bg-img"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container hero__content">
+        <div class="hero__badge reveal">
+          <span class="hero__badge-dot"></span>
+          Dubai, United Arab Emirates
+        </div>
+
+        <h1 class="hero__headline reveal reveal--delay-1">
+          Reliable Technical<br />
+          <span class="text-gold">Manpower Solutions</span><br />
+          Across UAE
+        </h1>
+
+        <p class="hero__subtitle reveal reveal--delay-2">
+          Providing skilled technical manpower for construction, industrial,<br class="desktop-only" />
+          and interior fit-out projects throughout the UAE.
+        </p>
+
+        <div class="hero__actions reveal reveal--delay-3">
+          <a href="#contact" class="btn btn--primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            Contact Us
+          </a>
+          <a href="https://wa.me/971551628349" target="_blank" rel="noopener" class="btn btn--whatsapp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+
+        <div class="hero__stats reveal reveal--delay-4">
+          <div class="hero__stat">
+            <span class="hero__stat-number">B2B</span>
+            <span class="hero__stat-label">Business Only</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">UAE</span>
+            <span class="hero__stat-label">Nationwide</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">4+</span>
+            <span class="hero__stat-label">Skilled Trades</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#leadership" class="hero__scroll-cue" aria-label="Scroll down">
+        <div class="scroll-mouse">
+          <span class="scroll-mouse__dot"></span>
+        </div>
+        <span class="scroll-mouse__label">Scroll</span>
+      </a>
+    </section>
+
+    <!-- =============================
+         LEADERSHIP / CEO SECTION
+    ============================== -->
+    <section class="leadership section section--dark" id="leadership">
+      <div class="container leadership__inner">
+
+        <div class="leadership__image-col reveal">
+          <div class="leadership__img-frame">
+            <div class="leadership__img-placeholder" id="ceoImgWrap">
+              <img src="assets/images/ceo.jpeg" alt="Saidujjaman Durjoy — CEO &amp; Managing Director" class="leadership__img" loading="lazy" id="ceoImg" />
+            </div>
+            <div class="leadership__img-accent"></div>
+            <div class="leadership__img-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              CEO &amp; Managing Director
+            </div>
+          </div>
+        </div>
+
+        <div class="leadership__content reveal reveal--delay-2">
+          <div class="section-label section-label--light">Our Leadership</div>
+          <h2 class="leadership__heading">
+            Built on Trust,<br />
+            <span class="text-gold">Driven by Excellence</span>
+          </h2>
+          <svg class="leadership__quote-icon" width="48" height="36" viewBox="0 0 48 36" fill="none" aria-hidden="true">
+            <path d="M0 36V22.5C0 10.5 7.5 3 22.5 0L24 3C17 5 13 10 12 16.5H21V36H0ZM27 36V22.5C27 10.5 34.5 3 49.5 0L51 3C44 5 40 10 39 16.5H48V36H27Z" fill="currentColor" opacity="0.18"/>
+          </svg>
+          <blockquote class="leadership__quote">
+            We built NABAA AL SAHRA on one principle: every business deserves reliable, skilled technical workers who show up and perform. Our commitment to quality, safety, and timely deployment is what sets us apart across the UAE.
+          </blockquote>
+          <div class="leadership__person">
+            <div class="leadership__person-bar"></div>
+            <div class="leadership__person-info">
+              <div class="leadership__name">Saidujjaman Durjoy</div>
+              <div class="leadership__role">CEO &amp; Managing Director</div>
+              <div class="leadership__company">NABAA AL SAHRA TECHNICAL WORKS LLC · Dubai, UAE</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================
+         STATS BAR
+    ============================== -->
+    <div class="stats-bar">
+      <div class="container stats-bar__inner">
+        <div class="stats-bar__item">
+          <span class="stats-bar__num">500<span>+</span></span>
+          <span class="stats-bar__label">Workers Deployed</span>
+        </div>
+        <div class="stats-bar__divider"></div>
+        <div class="stats-bar__item">
+          <span class="stats-bar__num">50<span>+</span></span>
+          <span class="stats-bar__label">Projects Supported</span>
+        </div>
+        <div class="stats-bar__divider"></div>
+        <div class="stats-bar__item">
+          <span class="stats-bar__num">4<span>+</span></span>
+          <span class="stats-bar__label">Licensed Trade Services</span>
+        </div>
+        <div class="stats-bar__divider"></div>
+        <div class="stats-bar__item">
+          <span class="stats-bar__num">UAE</span>
+          <span class="stats-bar__label">Nationwide Coverage</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- =============================
+         ABOUT SECTION
+    ============================== -->
+    <section class="about section" id="about">
+      <div class="container about__inner">
+
+        <div class="about__image-col reveal">
+          <div class="about__image-wrap">
+            <!-- Replace src with your actual about/team photo -->
+            <img
+              src="assets/images/about.jpg"
+              alt="NABAA AL SAHRA technical team"
+              class="about__img"
+              loading="lazy"
+            />
+            <div class="about__image-card">
+              <div class="about__image-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <div class="about__image-card-title">Licensed &amp; Registered</div>
+                <div class="about__image-card-sub">Dubai, UAE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__content-col">
+          <div class="section-label reveal">About Us</div>
+          <h2 class="section-title reveal reveal--delay-1">
+            A Trusted Technical Manpower<br />Partner in the UAE
+          </h2>
+          <p class="about__lead reveal reveal--delay-2">
+            NABAA AL SAHRA TECHNICAL WORKS LLC is a Dubai-based company specializing in the supply of skilled and semi-skilled technical manpower to businesses across the UAE.
+          </p>
+          <p class="about__body reveal reveal--delay-2">
+            We serve construction companies, main contractors, sub-contractors, and interior fit-out companies — providing reliable, experienced workers ready to integrate into project teams from day one. Our licensed activities include carpentry and wood flooring works, plaster works, and steel products installation and maintenance.
+          </p>
+          <p class="about__body reveal reveal--delay-2">
+            Every worker we deploy is vetted, experienced, and committed to maintaining the safety and quality standards your project demands. We understand that your project timeline is non-negotiable — which is why we operate with professional management and rapid deployment capability.
+          </p>
+
+          <ul class="about__pillars reveal reveal--delay-3">
+            <li class="about__pillar">
+              <div class="about__pillar-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Experienced &amp; vetted workforce
+            </li>
+            <li class="about__pillar">
+              <div class="about__pillar-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Professional management team
+            </li>
+            <li class="about__pillar">
+              <div class="about__pillar-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Rapid &amp; reliable deployment
+            </li>
+            <li class="about__pillar">
+              <div class="about__pillar-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Committed to safety standards
+            </li>
+            <li class="about__pillar">
+              <div class="about__pillar-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              Licensed in Dubai, UAE
+            </li>
+            <li class="about__pillar">
+              <div class="about__pillar-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              B2B — Serving businesses only
+            </li>
+          </ul>
+
+          <a href="#contact" class="btn btn--primary reveal reveal--delay-4">Get In Touch</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================
+         TEAM SECTION
+    ============================== -->
+    <section class="team section" id="team">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">Our People</div>
+          <h2 class="section-title reveal reveal--delay-1">Meet Our Management Team</h2>
+          <p class="section-desc reveal reveal--delay-2">
+            Experienced professionals ensuring every project runs smoothly and every client is served with excellence.
+          </p>
+        </div>
+
+        <div class="team__grid">
+
+          <div class="team-card reveal">
+            <div class="team-card__img-wrap">
+              <img src="assets/images/akash.jpeg" alt="MD AKASH" class="team-card__img" loading="lazy"
+                   onerror="this.parentElement.classList.add('team-card__img-wrap--empty'); this.style.display='none';" />
+              <div class="team-card__avatar" aria-hidden="true">MA</div>
+            </div>
+            <div class="team-card__info">
+              <div class="team-card__role">Project Manager</div>
+              <h3 class="team-card__name">MD AKASH</h3>
+              <a href="mailto:mdakashsk940@gmail.com" class="team-card__email">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                mdakashsk940@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="team-card reveal reveal--delay-1">
+            <div class="team-card__img-wrap">
+              <img src="assets/images/didar.jpeg" alt="MD DIDAR MIAH" class="team-card__img" loading="lazy"
+                   onerror="this.parentElement.classList.add('team-card__img-wrap--empty'); this.style.display='none';" />
+              <div class="team-card__avatar" aria-hidden="true">DM</div>
+            </div>
+            <div class="team-card__info">
+              <div class="team-card__role">Construction Manager</div>
+              <h3 class="team-card__name">MD DIDAR MIAH</h3>
+              <a href="mailto:didar@gmail.com" class="team-card__email">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                didar@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="team-card reveal reveal--delay-2">
+            <div class="team-card__img-wrap">
+              <img src="assets/images/swadheen.jpg" alt="Swadheen Islam Robi" class="team-card__img" loading="lazy"
+                   onerror="this.parentElement.classList.add('team-card__img-wrap--empty'); this.style.display='none';" />
+              <div class="team-card__avatar" aria-hidden="true">SR</div>
+            </div>
+            <div class="team-card__info">
+              <div class="team-card__role">Office Executive</div>
+              <h3 class="team-card__name">Swadheen Islam Robi</h3>
+              <a href="mailto:contactwith.swadheen@gmail.com" class="team-card__email">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                contactwith.swadheen@gmail.com
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================
+         SERVICES SECTION
+    ============================== -->
+    <section class="services section section--dark" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label section-label--light reveal">What We Provide</div>
+          <h2 class="section-title section-title--light reveal reveal--delay-1">Our Manpower Services</h2>
+          <p class="section-desc section-desc--light reveal reveal--delay-2">
+            We supply specialized technical workforce across the UAE's construction<br class="desktop-only" />
+            and industrial sectors. B2B supply only.
+          </p>
+        </div>
+
+        <div class="services__grid">
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="service-card__title">Carpentry Workforce</h3>
+            <p class="service-card__desc">Skilled carpenters for interior joinery, formwork, furniture installation, and all carpentry requirements on commercial and residential sites.</p>
+            <div class="service-card__tag">Licensed Activity</div>
+          </div>
+
+          <div class="service-card reveal reveal--delay-1">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3 class="service-card__title">Wood Flooring Specialists</h3>
+            <p class="service-card__desc">Experienced wood flooring teams for parquet, engineered hardwood, laminate, and luxury vinyl flooring — precise finish, on schedule.</p>
+            <div class="service-card__tag">Licensed Activity</div>
+          </div>
+
+          <div class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="service-card__title">Plaster Works</h3>
+            <p class="service-card__desc">Skilled plasterers for internal and external plaster, decorative finishes, and wall cladding on large-scale construction and fit-out projects.</p>
+            <div class="service-card__tag">Licensed Activity</div>
+          </div>
+
+          <div class="service-card reveal reveal--delay-3">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><path d="M12 8a4 4 0 0 1 4 4"/></svg>
+            </div>
+            <h3 class="service-card__title">Steel Installation Workers</h3>
+            <p class="service-card__desc">Experienced steel installation and maintenance teams for structural steel, metal fabrication, and steel product installation across industrial and commercial projects.</p>
+            <div class="service-card__tag">Licensed Activity</div>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="service-card__title">Skilled Manpower</h3>
+            <p class="service-card__desc">Specialized technical workers with verified trade skills, ready to deploy directly to your project site with minimal onboarding time.</p>
+          </div>
+
+          <div class="service-card reveal reveal--delay-1">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="service-card__title">Semi-Skilled Labor</h3>
+            <p class="service-card__desc">Reliable semi-skilled workers for support roles, general construction activities, and labor-intensive tasks requiring supervision.</p>
+          </div>
+
+          <div class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="service-card__title">Site Support Teams</h3>
+            <p class="service-card__desc">Complete construction site support teams for ongoing projects — from ground-up builds to fit-out completions requiring multi-trade workforce.</p>
+          </div>
+
+          <div class="service-card reveal reveal--delay-3">
+            <div class="service-card__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h3 class="service-card__title">Project-Based Deployment</h3>
+            <p class="service-card__desc">Flexible workforce supply on a project-by-project basis — scale up or down as project demands change, with rapid mobilization.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================
+         WHY CHOOSE US
+    ============================== -->
+    <section class="why section" id="why">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">Our Strengths</div>
+          <h2 class="section-title reveal reveal--delay-1">Why Companies Choose Us</h2>
+          <p class="section-desc reveal reveal--delay-2">
+            We understand what contractors and project managers need —<br class="desktop-only" />
+            dependable workers, on time, every time.
+          </p>
+        </div>
+
+        <div class="why__grid">
+
+          <div class="why-card reveal" data-num="01">
+            <div class="why-card__number">01</div>
+            <div class="why-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/></svg>
+            </div>
+            <h3 class="why-card__title">Vetted Skilled Workers</h3>
+            <p class="why-card__desc">Every worker is screened for trade skills and site experience before deployment — no unknowns on your project.</p>
+          </div>
+
+          <div class="why-card reveal reveal--delay-1" data-num="02">
+            <div class="why-card__number">02</div>
+            <div class="why-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="why-card__title">Professional Management</h3>
+            <p class="why-card__desc">A professional management team handles logistics, documentation, and compliance so your team stays focused on the build.</p>
+          </div>
+
+          <div class="why-card reveal reveal--delay-2" data-num="03">
+            <div class="why-card__number">03</div>
+            <div class="why-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="why-card__title">Rapid Deployment</h3>
+            <p class="why-card__desc">We understand that project timelines don't wait. We mobilize teams quickly to meet your site start dates.</p>
+          </div>
+
+          <div class="why-card reveal reveal--delay-3" data-num="04">
+            <div class="why-card__number">04</div>
+            <div class="why-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="why-card__title">Safety First</h3>
+            <p class="why-card__desc">Our workers are briefed on site safety protocols. We take zero-shortcuts on safety compliance and protective standards.</p>
+          </div>
+
+          <div class="why-card reveal" data-num="05">
+            <div class="why-card__number">05</div>
+            <div class="why-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="why-card__title">Quality Commitment</h3>
+            <p class="why-card__desc">We take responsibility for the quality of the workforce we supply — your project's success reflects our standards.</p>
+          </div>
+
+          <div class="why-card reveal reveal--delay-1" data-num="06">
+            <div class="why-card__number">06</div>
+            <div class="why-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </div>
+            <h3 class="why-card__title">Timely &amp; Reliable</h3>
+            <p class="why-card__desc">Consistent attendance and reliability are non-negotiable. We supply workers who show up and perform, every day.</p>
+          </div>
+
+          <div class="why-card reveal reveal--delay-2" data-num="07">
+            <div class="why-card__number">07</div>
+            <div class="why-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <h3 class="why-card__title">UAE Licensed &amp; Based</h3>
+            <p class="why-card__desc">Fully licensed in Dubai with proper commercial registration. A legally compliant partner for your project documentation needs.</p>
+          </div>
+
+          <div class="why-card reveal reveal--delay-3" data-num="08">
+            <div class="why-card__number">08</div>
+            <div class="why-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 class="why-card__title">Experienced Team</h3>
+            <p class="why-card__desc">Years of experience in the UAE construction and industrial workforce market means we know what your projects demand.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================
+         INDUSTRIES WE SERVE
+    ============================== -->
+    <section class="industries section section--subtle" id="industries">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">Who We Work With</div>
+          <h2 class="section-title reveal reveal--delay-1">Industries We Serve</h2>
+          <p class="section-desc reveal reveal--delay-2">
+            Our manpower supports the full spectrum of UAE's built environment sector.
+          </p>
+        </div>
+
+        <div class="industries__grid">
+
+          <div class="industry-card reveal">
+            <div class="industry-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <h3 class="industry-card__title">Construction Companies</h3>
+            <p class="industry-card__desc">Main and specialist contractors building the UAE's infrastructure and real estate projects.</p>
+          </div>
+
+          <div class="industry-card reveal reveal--delay-1">
+            <div class="industry-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="3" x2="6" y2="15"/><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"/></svg>
+            </div>
+            <h3 class="industry-card__title">Main Contractors</h3>
+            <p class="industry-card__desc">Tier-1 and tier-2 main contractors executing large-scale commercial and residential projects.</p>
+          </div>
+
+          <div class="industry-card reveal reveal--delay-2">
+            <div class="industry-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="industry-card__title">Sub-Contractors</h3>
+            <p class="industry-card__desc">Specialized sub-contractors requiring additional skilled or semi-skilled trade workforce for specific project phases.</p>
+          </div>
+
+          <div class="industry-card reveal reveal--delay-3">
+            <div class="industry-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="industry-card__title">Interior Fit-Out</h3>
+            <p class="industry-card__desc">Fit-out companies transforming commercial and hospitality spaces who need skilled carpenters and finishing tradespeople.</p>
+          </div>
+
+          <div class="industry-card reveal">
+            <div class="industry-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="industry-card__title">Industrial Projects</h3>
+            <p class="industry-card__desc">Industrial and manufacturing facilities requiring reliable, safety-conscious technical workforce.</p>
+          </div>
+
+          <div class="industry-card reveal reveal--delay-1">
+            <div class="industry-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <h3 class="industry-card__title">Building Maintenance</h3>
+            <p class="industry-card__desc">Facility management and building maintenance companies needing regular, skilled technical labor supply.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================
+         GALLERY SECTION
+    ============================== -->
+    <section class="gallery section section--dark" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label section-label--light reveal">Our Work</div>
+          <h2 class="section-title section-title--light reveal reveal--delay-1">Project Gallery</h2>
+          <p class="section-desc section-desc--light reveal reveal--delay-2">
+            A snapshot of our teams in action across UAE construction<br class="desktop-only" />
+            and fit-out sites.
+          </p>
+        </div>
+
+        <div class="gallery__grid">
+
+          <div class="gallery-item gallery-item--large reveal">
+            <img src="assets/images/gallery/project_work_1.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal--delay-1">
+            <img src="assets/images/gallery/project_work_2.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal--delay-2">
+            <img src="assets/images/gallery/project_work_3.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal--delay-1">
+            <img src="assets/images/gallery/project_work_4.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item--large reveal reveal--delay-2">
+            <img src="assets/images/gallery/project_work_5.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal--delay-3">
+            <img src="assets/images/gallery/project_work_6.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery/project_work_7.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal--delay-1">
+            <img src="assets/images/gallery/project_work_8.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal--delay-2">
+            <img src="assets/images/gallery/project_work_9.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal--delay-3">
+            <img src="assets/images/gallery/project_work_10.jpeg" alt="Project work" loading="lazy" />
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label">Project Work</span>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="gallery__note reveal">
+          More project images available on request.
+        </p>
+      </div>
+    </section>
+
+    <!-- =============================
+         CONTACT SECTION
+    ============================== -->
+    <section class="contact section" id="contact">
+      <div class="container contact__inner">
+
+        <div class="contact__cta-col reveal">
+          <div class="section-label">Get In Touch</div>
+          <h2 class="contact__headline">
+            Need Skilled<br />
+            <span class="text-gold">Technical Manpower?</span>
+          </h2>
+          <p class="contact__sub">
+            We work with construction companies, contractors, and industrial businesses across the UAE. Tell us your requirement and we'll respond promptly.
+          </p>
+          <div class="contact__badges">
+            <div class="contact-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              B2B Clients Only
+            </div>
+            <div class="contact-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Fast Response
+            </div>
+            <div class="contact-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              UAE Nationwide
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__info-col reveal reveal--delay-2">
+          <div class="contact-info-card">
+
+            <a href="tel:+971551628349" class="contact-row" aria-label="Call us">
+              <div class="contact-row__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6.19 6.19l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-row__content">
+                <div class="contact-row__label">Phone</div>
+                <div class="contact-row__value">+971 55 162 8349</div>
+              </div>
+              <div class="contact-row__arrow">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </div>
+            </a>
+
+            <a href="mailto:alsahrallc2025@gmail.com" class="contact-row" aria-label="Email us">
+              <div class="contact-row__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-row__content">
+                <div class="contact-row__label">Email</div>
+                <div class="contact-row__value">alsahrallc2025@gmail.com</div>
+              </div>
+              <div class="contact-row__arrow">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </div>
+            </a>
+
+            <a href="https://wa.me/971551628349" target="_blank" rel="noopener" class="contact-row contact-row--whatsapp" aria-label="WhatsApp us">
+              <div class="contact-row__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              </div>
+              <div class="contact-row__content">
+                <div class="contact-row__label">WhatsApp</div>
+                <div class="contact-row__value">Chat With Us Now</div>
+              </div>
+              <div class="contact-row__arrow">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </div>
+            </a>
+
+            <div class="contact-row contact-row--nolink">
+              <div class="contact-row__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-row__content">
+                <div class="contact-row__label">Office</div>
+                <div class="contact-row__value">Dubai, United Arab Emirates</div>
+              </div>
+            </div>
+
+            <div class="contact__map">
+              <!-- Replace this with your actual Google Maps embed -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462562.6509334908!2d54.94754655!3d25.07575285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1699000000000!5m2!1sen!2s"
+                width="100%"
+                height="200"
+                style="border:0;border-radius:8px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="NABAA AL SAHRA Office Location — Dubai, UAE"
+              ></iframe>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================
+       FOOTER
+  ============================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__brand">
+        <!-- Replace with logo image if available -->
+        <div class="logo-text logo-text--light">
+          <span class="logo-text__main">NABAA AL SAHRA</span>
+          <span class="logo-text__sub">TECHNICAL WORKS LLC</span>
+        </div>
+        <p class="footer__tagline">
+          Reliable Technical Manpower Solutions Across UAE.<br />
+          Dubai, United Arab Emirates.
+        </p>
+        <div class="footer__social">
+          <a href="https://wa.me/971551628349" target="_blank" rel="noopener" aria-label="WhatsApp" class="footer__social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__links-col">
+        <h4 class="footer__col-title">Quick Links</h4>
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__links-col">
+        <h4 class="footer__col-title">Our Services</h4>
+        <ul class="footer__links">
+          <li><a href="#services">Carpentry Workforce</a></li>
+          <li><a href="#services">Wood Flooring</a></li>
+          <li><a href="#services">Plaster Works</a></li>
+          <li><a href="#services">Steel Installation</a></li>
+          <li><a href="#services">Skilled Manpower</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__links-col">
+        <h4 class="footer__col-title">Contact</h4>
+        <ul class="footer__links footer__links--contact">
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6.19 6.19l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+971551628349">+971 55 162 8349</a>
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:alsahrallc2025@gmail.com">alsahrallc2025@gmail.com</a>
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Dubai, UAE
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-bar">
+        <p class="footer__copyright">
+          &copy; <span id="year"></span> NABAA AL SAHRA TECHNICAL WORKS LLC &nbsp;&middot;&nbsp; All rights reserved.
+        </p>
+        <p class="footer__credit">
+          Designed &amp; developed by
+          <a href="https://github.com/swadheen01" target="_blank" rel="noopener">Swadheen Islam Robi</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/971551628349" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    <span class="whatsapp-float__pulse"></span>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
